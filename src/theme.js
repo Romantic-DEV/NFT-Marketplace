@@ -1,7 +1,7 @@
 import { createTheme } from '@mui/material/styles'
 import { red } from '@mui/material/colors'
 
-// Create a theme instance.
+// Create a theme instancesss.
 const theme = createTheme({
   palette: {
     primary: {
