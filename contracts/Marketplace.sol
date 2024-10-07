@@ -20,6 +20,7 @@ contract Marketplace is ReentrancyGuard {
 
     mapping(uint256 => MarketItem) private marketItemIdToMarketItem;
 
+    // checkout MarketItmes
     struct MarketItem {
         uint256 marketItemId;
         address nftContractAddress;
